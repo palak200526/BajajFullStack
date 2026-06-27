@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hierarchy Analyzer</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="container">
+
+        <h1>Hierarchy Analyzer</h1>
+        <p class="subtitle">
+            Enter the node relationships below and analyze the hierarchy.
+        </p>
+
+        <div class="input-section">
+
+            <label>Enter Nodes</label>
+
+            <textarea
+                id="nodeInput"
+                placeholder="Example:
+
+A->B
+A->C
+B->D
+C->E"></textarea>
+
+            <button id="analyzeBtn">
+                Analyze
+            </button>
+
+        </div>
+
+        <div id="errorMessage"></div>
+
+        <div id="result"></div>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>

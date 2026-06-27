@@ -25,7 +25,7 @@ analyzeBtn.addEventListener("click", async () => {
         analyzeBtn.disabled = true;
 analyzeBtn.innerText = "Analyzing...";
 
-        const response = await fetch("http://localhost:3000/bfhl", {
+        const response = await fetch("https://bajajfullstack-dg52.onrender.com/bfhl", {
             method: "POST",
             headers: {
                 "Content-Type": "application/json"
